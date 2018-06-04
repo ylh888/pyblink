@@ -1,0 +1,19 @@
+{
+	"show_video": true,
+	"show_debug": true,
+	"use_dropbox": false,
+	"dropbox_access_token": "eqkDAS32_mIAAAAAAAADAgMpkrAnfPwpdLUa_CXY9F-h8sTwyz8m64QmUZZYttRM",
+	"dropbox_base_path": "picam",
+	"min_upload_seconds": 999999.0,
+	"min_motion_frames": 4,
+	"camera_warmup_time": 0.5,
+	"delta_thresh": 5,
+	"resolution": [640, 480],
+	"scaled_width": 48,
+	"fps": 16,
+	"min_area": 20000,
+	"scaled_height": 64,
+	"save_local": true,
+	"reset_after": 30,
+	"system": "OSX"
+}

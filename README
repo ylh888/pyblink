@@ -1,0 +1,19 @@
+py-opencv/pyblink
+--- python eye blink switch control
+--- based on eyespy (webcam_surv.py webcam surveillance software) 
+    AND webcam_fall.py fall detection software
+--- try to recreate and improve on node.js version's nblink
+    which no longer works because of opencv problems
+
+legacy:
+eyespy - code from web surveillance
+*-object-dection - code from pyimage object-detection - NOT USED
+
+IN PROCESS 2018-06-03
+_ make a detector class
+_ make a improc class
+
+
+NEXT
+_ train from stored movie
+
