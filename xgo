@@ -1,0 +1,1 @@
+ls *.py imgproc/*.py conf.* | entr -pr ./xblink

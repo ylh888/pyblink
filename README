@@ -5,15 +5,24 @@ py-opencv/pyblink
 --- try to recreate and improve on node.js version's nblink
     which no longer works because of opencv problems
 
-legacy:
-eyespy - code from web surveillance
-*-object-dection - code from pyimage object-detection - NOT USED
+=== relevant files: pyblink.py, imgproc/, pyimagesearch
+>>>./xgo which executes xblink when py src files have changed
+ ls *.py imgproc/*.py | entr -pr ./xblink
+ 
+>>>./xblink - runs python pyblink --conf conf.json
 
-IN PROCESS 2018-06-03
+
+=== IN PROCESS 2018-06-03
 _ make a detector class
 _ make a improc class
 
 
-NEXT
+=== NEXT
 _ train from stored movie
+
+
+
+==== legacy files not used:
+eyespy - code from web surveillance
+*-object-dection - code from pyimage object-detection - NOT USED
 
