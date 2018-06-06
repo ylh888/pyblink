@@ -1,24 +1,35 @@
 py-opencv/pyblink
---- python eye blink switch control
---- based on eyespy (webcam_surv.py webcam surveillance software) 
+- python eye blink switch control
+- based on eyespy (webcam_surv.py webcam surveillance software) 
     AND webcam_fall.py fall detection software
---- try to recreate and improve on node.js version's nblink
+- try to recreate and improve on node.js version's nblink
     which no longer works because of opencv problems
+
+>>> MUST source ~/.bash_profile AND workon p3 (on Mac or workon cv2 on PI)
+
 
 === relevant files: pyblink.py, imgproc/, pyimagesearch
 >>>./xgo which executes xblink when py src files have changed
  ls *.py imgproc/*.py | entr -pr ./xblink
- 
 >>>./xblink - runs python pyblink --conf conf.json
 
+[2018-06-05 Tue]  utilities
+>>> capture.py - captures from camera to -o file.avi
+>>> findcamera.py - steps through video source and display the dev # on screen
 
 === IN PROCESS 2018-06-03
-_ make a detector class
-_ make a improc class
-
 
 === NEXT
-_ train from stored movie
+
+
+=== DONE
++ [2018-06-05 Tue] git=basic blink: updates a set of standard templates as eye blinks
++ train from stored movie
++ make a detector class
++ make a improc class
+
+
+=== UTILITIES
 
 
 
